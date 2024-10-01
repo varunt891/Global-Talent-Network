@@ -42,6 +42,12 @@ nav {
   }
 }
 
+.logo img {
+  height: auto;
+  width: 50px;
+  margin-right: 10px  ;
+}
+
 .logo .gtn {
   font-size: 1.5rem;
   color: #e1a56d;
