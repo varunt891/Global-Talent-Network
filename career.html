@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Global Talent Network</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav>
+    <div class="logo">
+      <i class="fas fa-globe-americas"></i>
+      <span class="gtn">Global Talent Network </span>
+    </div>
+    <div class="nav-container">
+      <ul class="nav-links">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="/career.html">Careers</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="search-box">
+        <input type="text" placeholder="Search...">
+        <button>Search</button>
+      </div>
+    </div>
+  </nav>
+  <hr class="section-separator">
+  <section id="job-search">
+    <h3 class="open-jobs-1">
+        <span>Open Opportunities</span>
+    </h3>
+    <div class="container">
+      <div class="top-bar">
+        <h2 class="create-job-alert">Create Career Alert</h2>
+        <div class="search-bar">
+          <input type="text" placeholder="Search Opportunities">
+          <button>Find Roles</button>
+        </div>
+        <div class="user-actions">
+          <a href="#">Sign In</a>
+          <a href="#">Register</a>
+          <div class="language-select">
+            Language
+            <select>
+              <option>English</option>
+              <option>Spanish</option>
+              <option>French</option>
+              <option>German</option>
+              <option>Mandarin</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-area">
+        <div class="sidebar">
+          <div class="filter-group">
+            <h3>Country</h3>
+            <select>
+              <option>Select Country</option>
+              <option>United States</option>
+              <option>Canada</option>
+              <option>United Kingdom</option>
+              <option>Germany</option>
+              <option>France</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <h3>State/Region</h3>
+            <div class="checkbox-list">
+              <div>
+                <input type="checkbox" id="state1" name="state1" value="California">
+                <label for="state1">California</label>
+              </div>
+              <div>
+                <input type="checkbox" id="state2" name="state2" value="Texas">
+                <label for="state2">Texas</label>
+              </div>
+              <div>
+                <input type="checkbox" id="state3" name="state3" value="New York">
+                <label for="state3">New York</label>
+              </div>
+              <div>
+                <input type="checkbox" id="state4" name="state4" value="Florida">
+                <label for="state4">Florida</label>
+              </div>
+              <div>
+                <input type="checkbox" id="state5" name="state5" value="Illinois">
+                <label for="state5">Illinois</label>
+              </div>
+              <button>More..</button>
+            </div>
+          </div>
+          <div class="filter-group">
+            <h3>City</h3>
+            <input type="text" placeholder="Enter City">
+            <select>
+              <option>Within</option>
+              <option>10 miles</option>
+              <option>25 miles</option>
+              <option>50 miles</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <h3>Job Category</h3>
+            <div class="checkbox-list">
+              <div>
+                <input type="checkbox" id="category1" name="category1" value="IT & Technology">
+                <label for="category1">IT & Technology</label>
+              </div>
+              <div>
+                <input type="checkbox" id="category2" name="category2" value="Finance & Accounting">
+                <label for="category2">Finance</label>
+              </div>
+              <div>
+                <input type="checkbox" id="category3" name="category3" value="Healthcare">
+                <label for="category3">Healthcare</label>
+              </div>
+              <div>
+                <input type="checkbox" id="category4" name="category4" value="Engineering">
+                <label for="category4">Engineering</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="job-listings">
+            <div class="hot-jobs-tag">Featured Opportunities</div>
+            <ul class="job-list" id="job-list-page1">
+                <li class="job-item">
+                    <h3>Senior Software Engineer</h3>
+                    <p>We are seeking an experienced Senior Software Engineer to join our dynamic team and contribute to the development of cutting-edge software solutions...</p>
+                    <p>Posted: 05/05/2024 | San Francisco, CA</p>
+                    <button class="details-btn">View Details</button>
+                  </li>
+                  <li class="job-item">
+                    <h3>Financial Analyst</h3>
+                    <p>Our client, a leading investment firm, is looking for a talented Financial Analyst to support their portfolio management team...</p>
+                    <p>Posted: 05/03/2024 | New York, NY</p>
+                    <button class="details-btn">View Details</button>
+                  </li>
+                  <li class="job-item">
+                    <h3>Marketing Manager</h3>
+                    <p>Join a global consumer brand as a Marketing Manager and drive innovative campaigns that resonate with our target audience...</p>
+                    <p>Posted: 04/28/2024 | Chicago, IL</p>
+                    <button class="details-btn">View Details</button>
+                  </li>
+                  <li class="job-item">
+                      <h3>UX Designer</h3>
+                      <p>We are seeking a talented UX Designer to join our innovative product team and create exceptional user experiences...</p>
+                      <p>Posted: 06/12/2024 | Seattle, WA</p>
+                      <button class="details-btn">View Details</button>
+                  </li>
+                    <li class="job-item">
+                      <h3>Data Scientist</h3>
+                      <p>Leverage your expertise in data analysis and machine learning to drive business insights and strategic decisions...</p>
+                      <p>Posted: 06/10/2024 | Boston, MA</p>
+                      <button class="details-btn">View Details</button>
+                    </li>
+            </ul>
+            <ul class="job-list" id="job-list-page2" style="display: none;">
+              <li class="job-item">
+                        <h3>Project Manager</h3>
+                        <p>Join our dynamic team as a Project Manager and lead cross-functional initiatives from ideation to successful delivery...</p>
+                        <p>Posted: 06/05/2024 | Austin, TX</p>
+                        <button class="details-btn">View Details</button>
+                      </li>
+                      
+                      <li class="job-item">
+                        <h3>Cybersecurity Analyst</h3>
+                        <p>Protect our organization from cyber threats by identifying vulnerabilities, implementing security measures, and responding to incidents...</p>
+                        <p>Posted: 05/30/2024 | Washington, D.C.</p>
+                        <button class="details-btn">View Details</button>
+                      </li>
+                      
+                      <li class="job-item">
+                        <h3>Content Writer</h3>
+                        <p>Craft compelling and engaging content that captivates our audience and drives brand awareness...</p>
+                        <p>Posted: 05/25/2024 | Remote</p>
+                        <button class="details-btn">View Details</button>
+                      </li>
+                      
+                      <li class="job-item">
+                        <h3>Front-End Developer</h3>
+                        <p>Leverage your expertise in HTML, CSS, and JavaScript to build responsive and user-friendly web applications...</p>
+                        <p>Posted: 05/20/2024 | San Jose, CA</p>
+                        <button class="details-btn">View Details</button>
+                      </li>
+                      
+                      <li class="job-item">
+                        <h3>Sales Representative</h3>
+                        <p>Drive revenue growth by identifying and pursuing new business opportunities, building relationships with clients, and exceeding sales targets...</p>
+                        <p>Posted: 05/15/2024 | Miami, FL</p>
+                        <button class="details-btn">View Details</button>
+                      </li>
+            </ul>
+            <div class="pagination">
+              <button id="page1-btn" class="active">1</button>
+              <button id="page2-btn">2</button>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+  <footer id="custom-footer">
+    <div class="footer-container">
+      <div class="footer-section contact">
+        <h3>CONTACT US</h3>
+        <p>Global Talent Network</p>
+        <p>1234 Main Street, Suite 500, New York, NY 10001</p>
+        <p>Phone: 1-800-123-4567 | info@globaltalentnetwork.com</p>
+        <p>Locations Worldwide &raquo;</p>
+      </div>
+      <div class="footer-section links">
+        <h3>QUICK LINKS</h3>
+        <ul>
+          <li><a href="/about.html">About Us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="/career.html">Careers</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-section follow">
+        <h3>STAY CONNECTED</h3>
+        <ul>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Resources</a></li>
+        </ul>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Terms of Use | Privacy Policy | Accessibility</p>
+      <p>&copy; Copyright 2024. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>

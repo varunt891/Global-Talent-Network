@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <!-- Vibrant background -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6a11cb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2575fc;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg-gradient)" />
+
+  <!-- Stylized globe with continents -->
+  <circle cx="600" cy="400" r="300" fill="#ffffff" stroke="#ffd700" stroke-width="4" />
+  <path d="M400,250 Q600,100 800,250 Q700,400 800,550 Q600,700 400,550 Q500,400 400,250" fill="#4CAF50" opacity="0.7" />
+  <path d="M350,350 Q450,300 550,350 Q500,450 550,550 Q450,600 350,550 Q400,450 350,350" fill="#2196F3" opacity="0.7" />
+  <circle cx="600" cy="400" r="300" fill="none" stroke="#ffd700" stroke-width="4" />
+
+  <!-- Company name -->
+  <text x="600" y="100" font-family="Arial, sans-serif" font-size="48" fill="#ffffff" text-anchor="middle" font-weight="bold">Global Talent Network</text>
+
+  <!-- Key information -->
+  <rect x="50" y="180" width="300" height="100" rx="20" fill="#FF4081" opacity="0.9" />
+  <text x="200" y="230" font-family="Arial, sans-serif" font-size="24" fill="#ffffff" text-anchor="middle" font-weight="bold">73 Countries</text>
+  <text x="200" y="260" font-family="Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle">Global Presence</text>
+
+  <rect x="850" y="180" width="300" height="100" rx="20" fill="#FFC107" opacity="0.9" />
+  <text x="1000" y="230" font-family="Arial, sans-serif" font-size="24" fill="#ffffff" text-anchor="middle" font-weight="bold">6,000+ Professionals</text>
+  <text x="1000" y="260" font-family="Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle">Diverse Talent Pool</text>
+
+  <rect x="50" y="600" width="300" height="100" rx="20" fill="#00BCD4" opacity="0.9" />
+  <text x="200" y="650" font-family="Arial, sans-serif" font-size="24" fill="#ffffff" text-anchor="middle" font-weight="bold">Since 1997</text>
+  <text x="200" y="680" font-family="Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle">25+ Years of Excellence</text>
+
+  <rect x="850" y="600" width="300" height="100" rx="20" fill="#8BC34A" opacity="0.9" />
+  <text x="1000" y="650" font-family="Arial, sans-serif" font-size="24" fill="#ffffff" text-anchor="middle" font-weight="bold">Multiple Industries</text>
+  <text x="1000" y="680" font-family="Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle">Tailored Solutions</text>
+
+  <!-- Connecting lines -->
+  <line x1="200" y1="280" x2="600" y2="400" stroke="#ffffff" stroke-width="2" stroke-dasharray="5,5" />
+  <line x1="1000" y1="280" x2="600" y2="400" stroke="#ffffff" stroke-width="2" stroke-dasharray="5,5" />
+  <line x1="200" y1="600" x2="600" y2="400" stroke="#ffffff" stroke-width="2" stroke-dasharray="5,5" />
+  <line x1="1000" y1="600" x2="600" y2="400" stroke="#ffffff" stroke-width="2" stroke-dasharray="5,5" />
+
+  <!-- Tagline -->
+  <text x="600" y="750" font-family="Arial, sans-serif" font-size="36" fill="#ffffff" text-anchor="middle" font-style="italic">"Connecting Global Talent"</text>
+</svg>
