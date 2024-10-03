@@ -131,12 +131,6 @@ nav {
   border: 1px solid rgb(35, 69, 139);
 }
 
-.gtn-img {
-  display: flex;
-  justify-content: center; /* Horizontally center the image */
-  max-width: 1550px; /* Set a maximum width for the image */
-}
-
 .gtn-img img {
   width: 100%;
 }
